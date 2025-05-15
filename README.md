@@ -11,3 +11,7 @@ cd GoobFuzz
 pip3 install -r requirements.txt
 python3 GoobFuzz.py --help
 ```
+
+# Features
+
+![Alt text](https://github.com/glask1d/GoobTools/blob/main/images/GoobFuzz-Features.png)
