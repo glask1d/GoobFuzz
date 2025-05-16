@@ -577,6 +577,7 @@ def main():
         queue.put(word)
     results = []
     lock = threading.Lock()
+    completed_requests = [0]  # Initialize completed_requests as a list with a single integer
 
     print_message(f"[*] Starting fuzzing with {args.threads} threads{' at ' + str(args.rps) + ' RPS' if args.rps else ''}...", args.silent, Fore.BLUE)
     start_time = time.time()
